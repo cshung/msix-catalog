@@ -36,6 +36,7 @@ namespace msix.catalog.app
 
         private void App_LoadCompleted(object sender, System.Windows.Navigation.NavigationEventArgs e)
         {
+            Environment.Exit(0);
             clock.Stop();
             var elapsed = clock.Elapsed;
             mainWindow.statusBarTimeElapsed.Content = elapsed.Humanize(2, false);

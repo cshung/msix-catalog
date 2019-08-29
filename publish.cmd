@@ -1,0 +1,1 @@
+dotnet publish -r win-x64 /p:Configuration=Release /p:PublishReadyToRun=true msix.catalog.app\msix.catalog.app.core.csproj
